@@ -91,6 +91,7 @@ function main() {
     const bgContolors = document.getElementById('bg-controller');
     const bgRemovBtn = document.getElementById('remove-bg-btn');
     bgRemovBtn.style.display = ' none';
+    bgContolors.style.display = ' none';
 
 
 

@@ -285,6 +285,8 @@ body {
 .background-preferencs{
     margin-top: 10px;
     display:flex ;
+    /* justify-content: space-around; */
+    /* align-items: center; */
     gap: 2rem;
 }
 .background-preferenc-left{
@@ -296,9 +298,6 @@ body {
     height: 22vh;
     background:#dddeee;
     border-radius: .25rem;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
 }
 .bg-input-file{
     display: none;
@@ -334,9 +333,7 @@ text-input:disabled {
   padding: 0.5rem 1rem;
   margin-top: 0.25rem;
 }
-#bg-controller{
-    display: none;
-}
+
 .background-right-planel{
     padding: 1rem;
     width: 100%;
